@@ -1,18 +1,20 @@
-[
-  {
-    "anzahl" : 4,
-    "name" : "CodeCoders"
-  },
+{
+  "1": [
     {
-    "anzahl" : 22,
-    "name" : "12 FI 4"
-  },
+      "anzahl" : 4,
+      "name" : "CodeCoders"
+    },
     {
-    "anzahl" : 300,
-    "name" : "Klara Oppenheimer Schule"
-  },
+      "anzahl": 22,
+      "name" : "12 FI 4"
+    },
     {
-    "anzahl" : 50,
-    "name" : "Rave"
-  }
-]
+      "anzahl": 300,
+      "name" : "Klarra Oppenheimer" 
+    },
+    {
+      "anzahl": 50,
+      "name" : "Rave"
+    }
+  ]
+}

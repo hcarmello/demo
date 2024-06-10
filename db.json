@@ -1,7 +1,7 @@
 {
   "case": [
     {
-      "id": 1,
+      "caseid": 1,
       "order-item-nr" : "DE123456789X01",
       "owner" : "Thomas Herbert",
       "priority" : "High",
@@ -9,7 +9,7 @@
       "stage": "New"
     },
     {
-      "id": 2,
+      "caseid": 2,
       "order-item-nr" : "DE123456789X02",
       "owner" : "Jakob Marga",
       "priority" : "High",
@@ -17,7 +17,7 @@
       "stage": "New"
     },
     {
-      "id": 3,
+      "caseid": 3,
       "order-item-nr" : "DE123456789X03",
       "owner" : "Christin Magdalena",
       "priority" : "Medium",
@@ -33,7 +33,7 @@
       "stage": "Forwarded"
     },
     {
-      "id": 5,
+      "caseid": 5,
       "order-item-nr" : "DE618339520X01",
       "owner" : "Lina Schmidt",
       "priority" : "High",
@@ -41,7 +41,7 @@
       "stage": "Waiting For Feedback (internal)"
     },
     {
-      "id": 6,
+      "caseid": 6,
       "order-item-nr" : "DE618339520X02",
       "owner" : "Alexander Rauch",
       "priority" : "High",
@@ -49,7 +49,7 @@
       "stage": "Waiting For Feedback (external)"
     },
     {
-      "id": 7,
+      "caseid": 7,
       "order-item-nr" : "AT183910042X01",
       "owner" : "Bernd Hilbert",
       "priority" : "Medium",
@@ -57,7 +57,7 @@
       "stage": "New Information"
     },
     {
-      "id": 8,
+      "caseid": 8,
       "order-item-nr" : "AT391044623X01",
       "owner" : "Stefan Gerd",
       "priority" : "High",
@@ -65,7 +65,7 @@
       "stage": "Follow Up"
     },
     {
-      "id": 9,
+      "caseid": 9,
       "order-item-nr" : "ES227340123X01",
       "owner" : "Sebastian Brandenmeier",
       "priority" : "Medium",
@@ -73,7 +73,7 @@
       "stage": "Closed"
     },
     {
-      "id": 10,
+      "caseid": 10,
       "order-item-nr" : "ES118290042X01",
       "owner" : "Jonas Tinsberg",
       "priority" : "Medium",
@@ -81,7 +81,7 @@
       "stage": "Waiting For Feedback (internal)"
     },
     {
-      "id": 11,
+      "caseid": 11,
       "order-item-nr" : "ES112812384X01",
       "owner" : "Elisa Müller",
       "priority" : "Medium",
@@ -89,7 +89,7 @@
       "stage": "in Progress"
     },
     {
-      "id": 12,
+      "caseid": 12,
       "order-item-nr" : "ES334565391X01",
       "owner" : "Isabell Smith",
       "priority" : "Medium",
@@ -97,7 +97,7 @@
       "stage": "New Information"
     },
     {
-      "id": 13,
+      "caseid": 13,
       "order-item-nr" : "FR441910541X01",
       "owner" : "Lena Hausen",
       "priority" : "Medium",
@@ -105,7 +105,7 @@
       "stage": "Closed"
     },
     {
-      "id": 14,
+      "caseid": 14,
       "order-item-nr" : "FR441910541X02",
       "owner" : "Kevin Kleinberger",
       "priority" : "High",
@@ -113,7 +113,7 @@
       "stage": "Closed"
     },
     {
-      "id": 15,
+      "caseid": 15,
       "order-item-nr" : "BE220155151X01",
       "owner" : "Susanne Raucher",
       "priority" : "Medium",
@@ -121,7 +121,7 @@
       "stage": "Follow Up"
     },
     {
-      "id": 16,
+      "caseid": 16,
       "order-item-nr" : "RU449201231X01",
       "owner" : "Bregite Bauer",
       "priority" : "Medium",
@@ -129,7 +129,7 @@
       "stage": "New"
     },
     {
-      "id": 17,
+      "caseid": 17,
       "order-item-nr" : "RU221849122X01",
       "owner" : "Thomas Marshall",
       "priority" : "Medium",
@@ -137,7 +137,7 @@
       "stage": "New"
     },
     {
-      "id": 18,
+      "caseid": 18,
       "order-item-nr" : "PL330560446X01",
       "owner" : "Manuel Schinsberg",
       "priority" : "Medium",
@@ -145,7 +145,7 @@
       "stage": "New"
     },
     {
-      "id": 19,
+      "caseid": 19,
       "order-item-nr" : "DN334910211X01",
       "owner" : "Hubert Kristina",
       "priority" : "Medium",
@@ -153,7 +153,7 @@
       "stage": "New"
     },
     {
-      "id": 20,
+      "caseid": 20,
       "order-item-nr" : "PG118293781X01",
       "owner" : "Meike Friedhold",
       "priority" : "High",
@@ -163,91 +163,91 @@
   ],
   "opportunity": [
     {
-      "id": 1,
+      "oppid": 1,
       "betreff": "Fehlende Daten für PL330560446X01",
       "contact-name": "Elisa Müller",
       "close-date": "23.08.2024",
       "stage": "New"
     },
     {
-      "id": 2,
+      "oppid": 2,
       "betreff": "Fehlende Daten für RU449201231X01",
       "contact-name": "Susanne Raucher",
       "close-date": "11.11.2024",
       "stage": "New"
     },
     {
-      "id": 3,
+      "oppid": 3,
       "betreff": "202421_susanne.raucher@flyeralarm.com",
       "contact-name": "Susanne Raucher",
       "close-date": "17.09.2024",
       "stage": "New"
     },
     {
-      "id": 4,
+      "oppid": 4,
       "betreff": "202451_lina.schmidt@flyeralarm.com",
       "contact-name": "Lina Schmidt",
       "close-date": "17.09.2024",
       "stage": "Refinement"
     },
     {
-      "id": 5,
+      "oppid": 5,
       "betreff": "202412_thomas.herbert@flyeralarm.com",
       "contact-name": "Thomas Herbert",
       "close-date": "29.09.2024",
       "stage": "Check Graphic Designer"
     },
     {
-      "id": 6,
+      "oppid": 6,
       "betreff": "20241132_kevin.kleinberger@flyeralarm.com",
       "contact-name": "Kevin Kleinberger",
       "close-date": "26.11.2024",
       "stage": "Quote Creation"
     },
     {
-      "id": 7,
+      "oppid": 7,
       "betreff": "Fehlende Daten für FR441910541X02",
       "contact-name": "Stefan Gerd",
       "close-date": "01.11.2024",
       "stage": "Quote at Customer"
     },
     {
-      "id": 8,
+      "oppid": 8,
       "betreff": "Fehlende Daten für ",
       "contact-name": "Alexander Rauch",
       "close-date": "23.07.2024",
       "stage": "Order Placed"
     },
     {
-      "id": 9,
+      "oppid": 9,
       "betreff": "Fehlende Daten für",
       "contact-name": "Alexander Rauch",
       "close-date": "30.08.2024",
       "stage": "Layout in Progress"
     },
     {
-      "id": 10,
+      "oppid": 10,
       "betreff": "Fehlende Daten für ",
       "contact-name": "Alexander Rauch",
       "close-date": "30.08.2024",
       "stage": "Closed & Won"
     },
     {
-      "id": 11,
+      "oppid": 11,
       "betreff": "Fehlende Daten für ",
       "contact-name": "Elisa Müller",
       "close-date": "14.10.2024",
       "stage": "Layout Revision"
     },
     {
-      "id": 12,
+      "oppid": 12,
       "betreff": "Fehlende Daten für ",
       "contact-name": "Jakob Marga",
       "close-date": "03.11.2024",
       "stage": "Closed & Lost"
     },
     {
-      "id": 13,
+      "oppid": 13,
       "betreff": "202452_sebastian.brandenmeier@flyeralarm.com",
       "contact-name": "Sebastian Brandenmeier",
       "close-date": "23.08.2024",
@@ -256,61 +256,61 @@
   ],
   "account": [
     {
-      "id": 1,
+      "accid": 1,
       "KAM": true,
       "Reseller": false,
       "Potential Reseller": false
     },
     {
-      "id": 2,
+      "accid": 2,
       "KAM": true,
       "Reseller": false,
       "Potential Reseller": false
     },
     {
-      "id": 3,
+      "accid": 3,
       "KAM": true,
       "Reseller": false,
       "Potential Reseller": false
     },
     {
-      "id": 4,
+      "accid": 4,
       "KAM": true,
       "Reseller": false,
       "Potential Reseller": false
     },
     {
-      "id": 5,
+      "accid": 5,
       "KAM": false,
       "Reseller": true,
       "Potential Reseller": false
     },
     {
-      "id": 6,
+      "accid": 6,
       "KAM": false,
       "Reseller": false,
       "Potential Reseller": true
     },
     {
-      "id": 7,
+      "accid": 7,
       "KAM": false,
       "Reseller": true,
       "Potential Reseller": false
     },
     {
-      "id": 8,
+      "accid": 8,
       "KAM": false,
       "Reseller": false,
       "Potential Reseller": true
     },
     {
-      "id": 9,
+      "accid": 9,
       "KAM": true,
       "Reseller": false,
       "Potential Reseller": false
     },
     {
-      "id": 10,
+      "accid": 10,
       "KAM": false,
       "Reseller": false,
       "Potential Reseller": true

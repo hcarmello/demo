@@ -252,34 +252,6 @@
       "contact-name": "Sebastian Brandenmeier",
       "close-date": "23.08.2024",
       "stage": "Closed & Won"
-    },
-    {
-      "id": 14,
-      "betreff": "2024116_manuel.schinsberg@flyeralarm.com",
-      "contact-name": "Manuel Schinsberg",
-      "close-date": "16.10.2024",
-      "stage": "Quote at Customer"
-    },
-    {
-      "id": 15,
-      "betreff": "2024730_manuel.schinsberg@flyeralarm.com",
-      "contact-name": "Manuel Schinsberg",
-      "close-date": "09.10.2024",
-      "stage": "Refinement"
-    },
-    {
-      "id": 16,
-      "betreff": "2024913_manuel.schinsberg@flyeralarm.com",
-      "contact-name": "Manuel Schinsberg",
-      "close-date": "25.12.2024",
-      "stage": "Layout in Progress"
-    },
-    {
-      "id": 17,
-      "betreff": "202444_manuel.schinsberg@flyeralarm.com",
-      "contact-name": "Manuel Schinsberg",
-      "close-date": "26.10.2024",
-      "stage": "Check Graphic Designer"
     }
   ],
   "account": [
@@ -342,72 +314,6 @@
       "KAM": false,
       "Reseller": false,
       "Potential Reseller": true
-    },
-    {
-      "id": 10,
-      "KAM": false,
-      "Reseller": false,
-      "Potential Reseller": true
-    },
-    {
-      "id": 11,
-      "KAM": true,
-      "Reseller": false,
-      "Potential Reseller": false
-    },
-    {
-      "id": 12,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    },
-    {
-      "id": 13,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    },
-    {
-      "id": 14,
-      "KAM": true,
-      "Reseller": false,
-      "Potential Reseller": false
-    },
-    {
-      "id": 15,
-      "KAM": false,
-      "Reseller": false,
-      "Potential Reseller": true
-    },
-    {
-      "id": 16,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    },
-    {
-      "id": 17,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    },
-    {
-      "id": 18,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    },
-    {
-      "id": 19,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    },
-    {
-      "id": 20,
-      "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
     }
   ]
 }

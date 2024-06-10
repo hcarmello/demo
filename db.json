@@ -1,20 +1,557 @@
 {
-  "gruppen": [
+  "case": [
     {
-      "anzahl" : 4,
-      "name" : "CodeCoders"
+      "id": 1,
+      "order-item-nr" : "DE123456789X01",
+      "owner" : "Thomas Herbert",
+      "priority" : "High",
+      "record-type": "Flyeralarm Case",
+      "stage": "New"
     },
     {
-      "anzahl": 22,
-      "name" : "12 FI 4"
+      "id": 2,
+      "order-item-nr" : "DE123456789X02",
+      "owner" : "Jakob Marga",
+      "priority" : "High",
+      "record-type": "Flyeralarm Case",
+      "stage": "New"
     },
     {
-      "anzahl": 300,
-      "name" : "Klarra Oppenheimer" 
+      "id": 3,
+      "order-item-nr" : "DE123456789X03",
+      "owner" : "Christin Magdalena",
+      "priority" : "Medium",
+      "record-type": "Flyeralarm Case",
+      "stage": "in Progress"
     },
     {
-      "anzahl": 50,
-      "name" : "Rave"
+      "id": 4,
+      "order-item-nr" : "DE428919201X01",
+      "owner" : "Stefan Gerd",
+      "priority" : "Medium",
+      "record-type": "Flyeralarm Case",
+      "stage": "Forwarded"
+    },
+    {
+      "id": 5,
+      "order-item-nr" : "DE618339520X01",
+      "owner" : "Lina Schmidt",
+      "priority" : "High",
+      "record-type": "Flyeralarm Case",
+      "stage": "Waiting For Feedback (internal)"
+    },
+    {
+      "id": 6,
+      "order-item-nr" : "DE618339520X02",
+      "owner" : "Alexander Rauch",
+      "priority" : "High",
+      "record-type": "Complaint Case",
+      "stage": "Waiting For Feedback (external)"
+    },
+    {
+      "id": 7,
+      "order-item-nr" : "AT183910042X01",
+      "owner" : "Bernd Hilbert",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "New Information"
+    },
+    {
+      "id": 8,
+      "order-item-nr" : "AT391044623X01",
+      "owner" : "Stefan Gerd",
+      "priority" : "High",
+      "record-type": "Complaint Case",
+      "stage": "Follow Up"
+    },
+    {
+      "id": 9,
+      "order-item-nr" : "ES227340123X01",
+      "owner" : "Sebastian Brandenmeier",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "Closed"
+    },
+    {
+      "id": 10,
+      "order-item-nr" : "ES118290042X01",
+      "owner" : "Jonas Tinsberg",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "Waiting For Feedback (internal)"
+    },
+    {
+      "id": 11,
+      "order-item-nr" : "ES112812384X01",
+      "owner" : "Elisa Müller",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "in Progress"
+    },
+    {
+      "id": 12,
+      "order-item-nr" : "ES334565391X01",
+      "owner" : "Isabell Smith",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "New Information"
+    },
+    {
+      "id": 13,
+      "order-item-nr" : "FR441910541X01",
+      "owner" : "Lena Hausen",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "Closed"
+    },
+    {
+      "id": 14,
+      "order-item-nr" : "FR441910541X02",
+      "owner" : "Kevin Kleinberger",
+      "priority" : "High",
+      "record-type": "Complaint Case",
+      "stage": "Closed"
+    },
+    {
+      "id": 15,
+      "order-item-nr" : "BE220155151X01",
+      "owner" : "Susanne Raucher",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "Follow Up"
+    },
+    {
+      "id": 16,
+      "order-item-nr" : "RU449201231X01",
+      "owner" : "Bregite Bauer",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "New"
+    },
+    {
+      "id": 17,
+      "order-item-nr" : "RU221849122X01",
+      "owner" : "Thomas Marshall",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "New"
+    },
+    {
+      "id": 18,
+      "order-item-nr" : "PL330560446X01",
+      "owner" : "Manuel Schinsberg",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "New"
+    },
+    {
+      "id": 19,
+      "order-item-nr" : "DN334910211X01",
+      "owner" : "Hubert Kristina",
+      "priority" : "Medium",
+      "record-type": "Complaint Case",
+      "stage": "New"
+    },
+    {
+      "id": 20,
+      "order-item-nr" : "PG118293781X01",
+      "owner" : "Meike Friedhold",
+      "priority" : "High",
+      "record-type": "Complaint Case",
+      "stage": "Forwarded"
+    }
+  ],
+  "opportunity": [
+    {
+      "id": 1,
+      "betreff": "Fehlende Daten für PL330560446X01",
+      "contact-name": "Elisa Müller",
+      "close-date": "23.08.2024",
+      "stage": "New"
+    },
+    {
+      "id": 2,
+      "betreff": "Fehlende Daten für RU449201231X01",
+      "contact-name": "Susanne Raucher",
+      "close-date": "11.11.2024",
+      "stage": "New"
+    },
+    {
+      "id": 3,
+      "betreff": "202421_susanne.raucher@flyeralarm.com",
+      "contact-name": "Susanne Raucher",
+      "close-date": "17.09.2024",
+      "stage": "New"
+    },
+    {
+      "id": 4,
+      "betreff": "202451_lina.schmidt@flyeralarm.com",
+      "contact-name": "Lina Schmidt",
+      "close-date": "17.09.2024",
+      "stage": "Refinement"
+    },
+    {
+      "id": 5,
+      "betreff": "202412_thomas.herbert@flyeralarm.com",
+      "contact-name": "Thomas Herbert",
+      "close-date": "29.09.2024",
+      "stage": "Check Graphic Designer"
+    },
+    {
+      "id": 6,
+      "betreff": "20241132_kevin.kleinberger@flyeralarm.com",
+      "contact-name": "Kevin Kleinberger",
+      "close-date": "26.11.2024",
+      "stage": "Quote Creation"
+    },
+    {
+      "id": 7,
+      "betreff": "Fehlende Daten für FR441910541X02",
+      "contact-name": "Stefan Gerd",
+      "close-date": "01.11.2024",
+      "stage": "Quote at Customer"
+    },
+    {
+      "id": 8,
+      "betreff": "Fehlende Daten für ",
+      "contact-name": "Alexander Rauch",
+      "close-date": "23.07.2024",
+      "stage": "Order Placed"
+    },
+    {
+      "id": 9,
+      "betreff": "Fehlende Daten für",
+      "contact-name": "Alexander Rauch",
+      "close-date": "30.08.2024",
+      "stage": "Layout in Progress"
+    },
+    {
+      "id": 10,
+      "betreff": "Fehlende Daten für ",
+      "contact-name": "Alexander Rauch",
+      "close-date": "30.08.2024",
+      "stage": "Closed & Won"
+    },
+    {
+      "id": 11,
+      "betreff": "Fehlende Daten für ",
+      "contact-name": "Elisa Müller",
+      "close-date": "14.10.2024",
+      "stage": "Layout Revision"
+    },
+    {
+      "id": 12,
+      "betreff": "Fehlende Daten für ",
+      "contact-name": "Jakob Marga",
+      "close-date": "03.11.2024",
+      "stage": "Closed & Lost"
+    },
+    {
+      "id": 13,
+      "betreff": "202452_sebastian.brandenmeier@flyeralarm.com",
+      "contact-name": "Sebastian Brandenmeier",
+      "close-date": "23.08.2024",
+      "stage": "Closed & Won"
+    },
+    {
+      "id": 14,
+      "betreff": "2024116_manuel.schinsberg@flyeralarm.com",
+      "contact-name": "Manuel Schinsberg",
+      "close-date": "16.10.2024",
+      "stage": "Quote at Customer"
+    },
+    {
+      "id": 15,
+      "betreff": "2024730_manuel.schinsberg@flyeralarm.com",
+      "contact-name": "Manuel Schinsberg",
+      "close-date": "09.10.2024",
+      "stage": "Refinement"
+    },
+    {
+      "id": 16,
+      "betreff": "2024913_manuel.schinsberg@flyeralarm.com",
+      "contact-name": "Manuel Schinsberg",
+      "close-date": "25.12.2024",
+      "stage": "Layout in Progress"
+    },
+    {
+      "id": 17,
+      "betreff": "202444_manuel.schinsberg@flyeralarm.com",
+      "contact-name": "Manuel Schinsberg",
+      "close-date": "26.10.2024",
+      "stage": "Check Graphic Designer"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 2,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 3,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 4,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 5,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 6,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 7,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 8,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 9,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 10,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 11,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 12,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 13,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 14,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 15,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 16,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 17,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 18,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 19,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 20,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 21,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 22,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 23,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 24,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 25,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 26,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 27,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 28,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 29,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 30,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 31,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 32,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 33,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 34,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 35,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 36,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 37,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 38,
+      "KAM": false,
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "id": 39,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 40,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
+    },
+    {
+      "id": 41,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 42,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 43,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 44,
+      "KAM": false,
+      "Reseller": true,
+      "Potential Reseller": false
+    },
+    {
+      "id": 45,
+      "KAM": true,
+      "Reseller": false,
+      "Potential Reseller": false
     }
   ]
 }

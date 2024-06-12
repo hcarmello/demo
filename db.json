@@ -99,8 +99,8 @@
     },
     {
       "accid": 4,
-      "KAM": true,
-      "Reseller": false,
+      "KAM": false,
+      "Reseller": true,
       "Potential Reseller": false
     },
     {

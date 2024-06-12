@@ -106,8 +106,13 @@
     {
       "accid": 5,
       "KAM": false,
-      "Reseller": true,
-      "Potential Reseller": false
-    }
+      "Reseller": false,
+      "Potential Reseller": true
+    },
+    {
+      "accid": 6,
+      "KAM" : false,
+      "Reseller": false,
+      "Potential Reseller": true
   ]
 }

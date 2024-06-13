@@ -83,37 +83,37 @@
       "accid": 1,
       "KAM": true,
       "Reseller": false,
-      "Potential Reseller": false
+      "PotentialReseller": false
     },
     {
       "accid": 2,
       "KAM": true,
       "Reseller": false,
-      "Potential Reseller": false
+      "PotentialReseller": false
     },
     {
       "accid": 3,
       "KAM": true,
       "Reseller": false,
-      "Potential Reseller": false
+      "PotentialReseller": false
     },
     {
       "accid": 4,
       "KAM": false,
       "Reseller": true,
-      "Potential Reseller": false
+      "PotentialReseller": false
     },
     {
       "accid": 5,
       "KAM": false,
       "Reseller": false,
-      "Potential Reseller": true
+      "PotentialReseller": true
     },
     {
       "accid": 6,
       "KAM" : false,
       "Reseller": false,
-      "Potential Reseller": true
+      "PotentialReseller": true
     }
   ]
 }
